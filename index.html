@@ -4,6 +4,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="client.js"></script>
     <title>Code Challenge #2</title>
   </head>
   <body>
@@ -13,10 +15,11 @@
     <p>Total blue: <span id="blue">0</span></p>
 
     <!-- We can access the data-color via jQuery's .data() -->
-    <button class="color-button" data-color="red">Red</button>
-    <button class="color-button" data-color="yellow">Yellow</button>
-    <button class="color-button" data-color="green">Green</button>
-    <button class="color-button" data-color="blue">Blue</button>
+
+    <button class="color-button" data-color="red" id='red'>Red</button>
+    <button class="color-button" data-color="yellow" id='yellow'>Yellow</button>
+    <button class="color-button" data-color="green" id='green'>Green</button>
+    <button class="color-button" data-color="blue" id='blue'>Blue</button>
 
     <div class="container">
     </div>
